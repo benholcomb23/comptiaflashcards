@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="eng"> 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>COMPTIA A+ FLASHCARDS</title>
+    <link rel="stylesheet" href="comptiaflashcards.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>COMPTIA A+ FLASHCARDS</h1>
+    </header>
+    <main class="page">
+        <section class="card">
+
+            <div class="flashcard" id="flashcard">
+                <h2></h2>
+            </div>
+
+            <input
+            type="text"
+            id="answer_box"
+            required minlength="1"
+            maxlength="30" size="30"
+            placeholder="type cmd here..."
+            />
+
+            <div class="actions">
+                <button type="button" id="submit_answer_button" onclick="submitAnswer()">Submit</button>
+                <button type="button" onclick="showrandomFlashcard()" id="get_flashcard_button">New Question</button>
+            </div>
+
+            <div id="correct_incorrect" class="feedback"></div>
+
+        </section>
+    </main>
+</body>
+<script src="comptiaflashcards.js"></script>
+
+</html>

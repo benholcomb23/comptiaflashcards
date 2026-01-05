@@ -1,0 +1,212 @@
+[
+    {
+        "question": "Show basic IP configuration (Windows)",
+        "answer": "ipconfig",
+        "knowledge_level": 0
+    },
+    {
+        "question": "Show detailed IP config incl MAC (Windows)",
+        "answer": "ipconfig /all",
+        "knowledge_level": 0
+    },
+    {
+        "question": "Release DHCP IP address (Windows)",
+        "answer": "ipconfig /release",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Renew DHCP IP address (Windows)",
+        "answer": "ipconfig /renew",
+        "knowledge_level": 0
+    },
+    {
+        "question": "Test network connectivity (Windows)",
+        "answer": "ping",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Show packet route to destination (Windows)",
+        "answer": "tracert",
+        "knowledge_level": 0
+    },
+    {
+        "question": "Show active network connections (Windows)",
+        "answer": "netstat",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Show numeric connections and ports (Windows)",
+        "answer": "netstat -an",
+        "knowledge_level": 0
+    },
+    {
+        "question": "Resolve domain name via DNS (Windows)",
+        "answer": "nslookup",
+        "knowledge_level": 0
+    },
+    {
+        "question": "Display ARP table mappings (Windows)",
+        "answer": "arp -a",
+        "knowledge_level": 0
+    },
+    {
+        "question": "Check disk for file system errors(Win)",
+        "answer": "chkdsk",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Fix disk file system errors(Win)",
+        "answer": "chkdsk /f",
+        "knowledge_level": 0
+    },
+    {
+        "question": "Scan and repair system files(Win)",
+        "answer": "sfc /scannow",
+        "knowledge_level": 0
+    },
+    {
+        "question": "Shutdown or restart PC (Windows)",
+        "answer": "shutdown",
+        "knowledge_level": 0
+    },
+    {
+        "question": "Restart computer immediately",
+        "answer": "shutdown /r",
+        "knowledge_level": 0
+    },
+    {
+        "question": "List running processes (Windows)",
+        "answer": "tasklist",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Terminate a running process(Win)",
+        "answer": "taskkill",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Force Group Policy refresh(Win)",
+        "answer": "gpupdate",
+        "knowledge_level": 1
+    },
+    {
+        "question": "List files and folders (Linux)",
+        "answer": "ls",
+        "knowledge_level": 0
+    },
+    {
+        "question": "List files with permissions (Linux)",
+        "answer": "ls -l",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Change current directory(Linux)",
+        "answer": "cd",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Show current directory path(Linux)",
+        "answer": "pwd",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Copy files or directories(Linux)",
+        "answer": "cp",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Move or rename files(Linux)",
+        "answer": "mv",
+        "knowledge_level": 0
+    },
+    {
+        "question": "Delete a file or directory(Linux)",
+        "answer": "rm",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Recursively delete a directory(Lx)",
+        "answer": "rm -r",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Change file permissions(Linux)",
+        "answer": "chmod",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Change file ownership(Linux)",
+        "answer": "chown",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Configure network interfaces (legacy)",
+        "answer": "ifconfig",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Manage network interfaces and routes",
+        "answer": "ip",
+        "knowledge_level": 0
+    },
+    {
+        "question": "Test network connectivity (Linux)",
+        "answer": "ping",
+        "knowledge_level": 0
+    },
+    {
+        "question": "Trace network route (Linux)",
+        "answer": "traceroute",
+        "knowledge_level": 0
+    },
+    {
+        "question": "Show network connections (Linux)",
+        "answer": "netstat",
+        "knowledge_level": 0
+    },
+    {
+        "question": "Manage disks and volumes (macOS)",
+        "answer": "diskutil",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Show real-time process usage (Mac)",
+        "answer": "top",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Terminate a process by signal (Mac)",
+        "answer": "kill",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Run command as administrator (Mac)",
+        "answer": "sudo",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Format a disk or drive (Windows)",
+        "answer": "format",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Manage disk partitions (Windows)",
+        "answer": "diskpart",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Repair boot-related issues (Win)",
+        "answer": "bootrec",
+        "knowledge_level": 0
+    },
+    {
+        "question": "Repair Master Boot Record (Win)",
+        "answer": "bootrec /fixmbr",
+        "knowledge_level": 1
+    },
+    {
+        "question": "Rebuild boot configuration data(Win)",
+        "answer": "bootrec /rebuildbcd",
+        "knowledge_level": 0
+    }
+]
