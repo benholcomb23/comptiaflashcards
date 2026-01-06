@@ -1,5 +1,10 @@
 let flashcards = []
 let card_answer
+let amount_correct = 0
+let amount_attempted= 0
+let new_card = true
+const correct_status = document.getElementById("amount_correct")
+correct_status.innerHTML = `${amount_correct}/${amount_attempted}`
 const answer_box = document.getElementById("answer_box");
 const display = document.getElementById("correct_incorrect")
 
@@ -20,6 +25,7 @@ function showrandomFlashcard() {
     flashcardDiv.innerHTML = `
     <h2>${card.question}</h2>
     `;
+    new_card = true;
     }
 
 function submitAnswer() {
@@ -28,7 +34,10 @@ function submitAnswer() {
     console.log("button pressed")
     console.log(user_answer)
     if (user_answer == card_answer) {
+        amount_attempted ++;
+        amount_correct ++;
         display.innerHTML = `<p>Correct!</p>`;
+        correct_status.innerHTML =  `${amount_correct}/${amount_attempted}`
         answer_box.value = ``;
 
         setTimeout(() => {
@@ -38,10 +47,14 @@ function submitAnswer() {
 
     }
     else {
-        console.log("user answer incorrect")
+        if (new_card == true) {
+            amount_attempted ++;
+        }
         display.innerHTML = `
         <p>Incorrect!</p>
         `;
+        correct_status.innerHTML =  `${amount_correct}/${amount_attempted}`
+        new_card = false
     }
 }
 

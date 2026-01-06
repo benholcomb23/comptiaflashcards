@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(26, 195, 195);
+    background-color: rgb(151, 207, 207);
 }
 
 header{
@@ -22,18 +22,24 @@ header{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    padding-top: 30vh;
+    padding-top: 12rem;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: .5rem;
 }
 
 .flashcard{
-    transform: translateY(-100px);
-    border-style: solid;
-    padding:  20vh;
+    transform: translateY(-20px);
+    border: solid rgb(44, 46, 48) ;
+    border-radius: 10px;
+    padding:  10rem 8rem;
+    background: rgb(222, 221, 218);
+}
+
+.amount_correct {
+    transform:  translateY(-5px);
 }
