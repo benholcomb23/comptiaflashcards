@@ -33,11 +33,16 @@ header{
 }
 
 .flashcard{
+    height: 400px;
+    width: 700px;
     transform: translateY(-20px);
     border: solid rgb(44, 46, 48) ;
     border-radius: 10px;
-    padding:  10rem 8rem;
     background: rgb(222, 221, 218);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .amount_correct {
