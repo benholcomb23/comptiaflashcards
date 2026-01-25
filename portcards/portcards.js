@@ -8,7 +8,7 @@ correct_status.innerHTML = `${amount_correct}/${amount_attempted}`
 const answer_box = document.getElementById("answer_box");
 const display = document.getElementById("correct_incorrect")
 
-fetch("command_flashcards.json")
+fetch("portcards.json")
     .then(response => response.json())
     .then(data => {
         flashcards = data;
