@@ -1,0 +1,10 @@
+{
+    "commandline": {
+        "title": "Commandline Tools for A+ Core 2",
+        "dataFile": "/commandline.json"
+    },
+    "portcards": {
+        "title": "Common ports for Net+",
+        "dataFile": "/portcards.json"
+    }
+}
