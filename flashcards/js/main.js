@@ -28,7 +28,7 @@ async function renderFlashcardData() {
 }
 
 async function renderPage() {
-    const response = await fetch(`../pages/page.html`)
+    const response = await fetch(`../pages/flashcard.html`)
     const html = await response.text();
     return html
 }

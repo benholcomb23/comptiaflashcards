@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(151, 207, 207);
+    font-family: "verdana";
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    font-size: large;
+}
+li {
+    border: black 5px
+}
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+li a:hover {
+    color: white;
+}
