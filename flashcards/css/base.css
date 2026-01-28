@@ -55,3 +55,8 @@ footer {
     align-items: center;
     padding-top: 50px;
 }
+
+header h1 a{
+    text-decoration: none;
+    color: inherit
+}
