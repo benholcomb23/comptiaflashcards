@@ -1,10 +1,14 @@
 {
     "commandline": {
         "title": "Commandline Tools for A+ Core 2",
-        "dataFile": "/commandline.json"
+        "dataFile": "../json/commandline.json"
     },
     "portcards": {
         "title": "Common ports for Net+",
-        "dataFile": "/portcards.json"
+        "dataFile": "../json/portcards.json"
+    },
+    "wireless": {
+        "title": "Wireless 802.11 Standards for Net+",
+        "dataFile": "../json/wireless.json"
     }
 }
