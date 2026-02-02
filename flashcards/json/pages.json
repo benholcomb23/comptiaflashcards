@@ -10,5 +10,9 @@
     "wireless": {
         "title": "Wireless 802.11 Standards for Net+",
         "dataFile": "../json/wireless.json"
+    },
+    "ethernet": {
+        "title": "Ethernet Standards for Net+",
+        "dataFile": "../json/ethernet.json"
     }
 }
